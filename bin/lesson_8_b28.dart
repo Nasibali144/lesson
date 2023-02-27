@@ -20,6 +20,7 @@ void main (){
 Map<int?,String> textoplam ={};
 void noteWrite() {
   stdout.write('Nechinchi eslatma ekanligini kiriting: ');
+  // bug fix
   int? key = int.tryParse(stdin.readLineSync() ?? '0');
   if (key is! int) {
     print("Raqam kiriting!");
